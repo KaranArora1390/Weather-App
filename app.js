@@ -1,5 +1,5 @@
 //api_key of open weather API
-const api_key = '78aa05e04c096b2b9d28c00dd1d7604d'
+const api_key = 'your_api_key'
 
 
 const input = document.querySelector('input');
