@@ -106,49 +106,4 @@ function updateData(data){
     sunriseDOM.textContent = `${sunriseGMT.toLocaleDateString()}, ${sunriseGMT.toLocaleTimeString()}`;
     sunsetDOM.textContent = `${sunsetGMT.toLocaleDateString()}, ${sunsetGMT.toLocaleTimeString()}`;
 }
-// const getTemp = async(searchCity) => {
-//     const url = 'https://api.openweathermap.org/data/2.5/weather?q=${searchCity}&appid=${api_key}&units=metric';
 
-//     const response = await fetch(url);
-//     const data = await response.json();
-
-//     }
-
-
-// getTemp()
-//     .then(
-//       console.log(this.data)
-//     )
-//     const fetchedData = await axios.get(url);
-    
-    
-//     for (let item of fetchedData.data) {
-
-//         if (item.show.image) {
-//             const img = document.createElement('img');
-//             img.src = item.show.image.medium;
-//             img.style.margin = '20px';
-//             ul.append(img);
-    
-//         }
-    
-//     }
-// }
-
-// form.addEventListener('keypress',function (e) {
-//   if (e.keycode === 13) {
-//       console.log(form)
-//       // getTemp(searchCity);
-//   }
-// });
-
-// form.addEventListener('submit', (e) => {
-//     e.preventDefault();
-//     console.dir(form.elements[0].value);
-//     const searchText = form.elements[0].value;
-
-//     getTVShows(searchText);
-
-//     form.elements[0].value = "";
-   
-// })
